@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>patients information</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://kit.fontawesome.com/d668bd3316.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      
+    <div class="header">
+      <img src="./LD-C-1.jpg" alt="LOGO" class="logo" />
+      <pre class="header-text">
+            in partnership with
+            ministry of health
+         </pre
+      >
+      <img
+        src="./download.jfif"
+        alt="ministryof health logo"
+        class="ministryLogo"
+      />
+    </div>
+    <a href="./jikazeInsurance.html" class="nextPage"><i class="fas fa-angle-double-right"></i>click to go to the  insurance pages</a>
+    <form action="#">
+    <div>
+      <h1 class="firsth1">NEW PATIENT INFORMATION FORM(PAGE 1 OF2)</h1>
+    </div>
+    <fieldset>
+      <legend>
+        <h2><b>personal information</b></h2>
+      </legend>
+      <h3>please fill all the fields with <span class="metric">*</span></h3>
+      
+        <div class="personalInfo">
+          <label for="toDaysDate">Today's date:<span class="metric">*</span></label>
+          <input type="date" placeholder="mm/dd/yyy" required/>
+          <label for="title">Title:<span class="metric">*</span></label>
+          <input type="checkbox" />
+          <label for="mr">Mr</label>
+          <input type="checkbox" />
+          <label for="ms">Ms</label>
+          <input type="checkbox" />
+          <label for="mrs">Mrs</label>
+          <input type="checkbox" />
+          <label for="dr">Dr</label>
+          <input type="checkbox" />
+          <label for="miss">Miss</label>
+          <input type="checkbox" />
+          <label for="other">others</label><br />
+          <label for="other">if other please specify below</label>
+          <input type="text" /><br>
+          <label for="fname">First Name<span class="metric">*</span></label>
+          <input type="text" required>
+          <label for="lname">last Name<span class="metric">*</span></label>
+          <input type="text" required>
+          <label for="mAbbre">Middle name first letter</label>
+          <input type="text" required>
+          <label for="surfix">Surfix:</label>
+          <input type="text"><br>
+           <label for="id">ID:<span class="metric">*</span></label>
+          <input type="number"><br>
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" name="gender" value="female">
+          <label for="female">Female</label><br>
+          <label for="maritalStatus">Marital status<span class="metric">*</span>:</label>
+          <input type="radio" name="maritalstatus" value="divorced"><label for="divorced">Divorced</label>
+          <input type="radio" name="maritalstatus" value="married"><label for="married">Married</label>
+          <input type="radio" name="maritalstatus" value="single"><label for="single">Single</label>
+          <input type="radio" name="maritalstatus" value="seperated"><label for="seperated">Seperated</label>
+          <input type="radio" name="maritalstatus" value="widowed"><label for="widowed">Widowed</label><br>
+          <label for="DOB">Date of Birth</label>
+          <input type="date">
+
+        </div>
+     
+    </fieldset>
+    <fieldset>
+        <legend><h2><b>adress information</b></h2></legend>
+
+        <div class="address">
+       
+            <label for="address1">Address line 1<span class="metric">*</span></label>
+            <input type="address"><br>
+            <label for="address1">Address line 2<span class="metric">*</span></label>
+            <input type="address"><br>
+            <label for="country">Country<span class="metric">*</span></label>
+            <select name="country" id="country">
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tazania</option>
+                <option value="somalia">Somalia</option>
+                <option value="burundi">Burundi</option>
+            </select><br>
+            <label for="county">County<span class="metric">*</span></label>
+            <input type="text"><br>
+            <label for="district">District<span class="metric">*</span></label>
+            <input type="text"><br>
+            <label for="diision">Diision<span class="metric">*</span></label>
+            <input type="text"><br>
+            <label for="location">Location<span class="metric">*</span></label>
+            <input type="text"><br>
+            <label for="subLocation">sub location<span class="metric">*</span></label>
+            <input type="text"><br>
+            <label for="vilage">Vilage<span class="metric">*</span></label>
+            <input type="text"><br>
+            </div>
+
+        
+    </fieldset>
+    <fieldset>
+        <legend><h2><b>contact information</b></h2></legend>
+        <form action="#">
+            <label for="tel1">mobile number:<span class="metric">*</span><label>
+                <input type="tel" placeholder="+2547-***-***-**">
+            <label for="tel2">work number:<label>
+                <input type="tel" placeholder="+2547-***-***-**">
+            <label for="tel3">home number:<label>
+                <input type="tel" placeholder="+2547-***-***-**">
+            <label for="email">Email address:<span class="metric">*</span></label>
+            <input type="email">
+            <h3>emergency contacts1</h3>
+            <label for="nameEmerg">Full Name</label>
+            <input type="text">
+            <label for="telEmerg1">phone number 1</label>
+            <input type="tel" placeholder="+2547-***-***-**">
+            <label for="telEmerg2">phone number 2</label>
+            <input type="tel" placeholder="+2547-***-***-**">
+            <label for="relationEmerg">Relationship</label>
+            <input type="text">
+            <h3>emergency contacts2</h3>
+            <label for="nameEmerg">Full Name</label>
+            <input type="text">
+            <label for="telEmerg1">phone number 1</label>
+            <input type="tel" placeholder="+2547-***-***-**">
+            <label for="telEmerg2">phone number 2</label>
+            <input type="tel" placeholder="+2547-***-***-**">
+            <label for="relationEmerg">Relationship</label>
+            <input type="text">
+            <p><b>preferred method to contact you</b>about appointments and health care reminder </p>
+            <input type="checkbox"><label for="emailp">email</label>
+            <input type="checkbox"><label for="phonep">phone</label>
+
+
+    </fieldset>
+    <div>
+        <label for="sign">Signature(write your full name)</label>
+        <input type="text" class="signature">
+        <label for="datesigned">Date</label>
+        <input type="date"><br>
+    <input type="reset" value="click here to reset the fields" class="reset">
+    </form>
+    <input type="submit" value="click here to submit this form" class="submit">
+    </form><br>
+    </div>
+
+    <a href="./jikazeInsurance.html" class="nextPage"><i class="fas fa-angle-double-right"></i>click to go to insurance pages</a>
+  </body>
+</html>

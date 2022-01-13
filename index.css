@@ -1,0 +1,121 @@
+body{
+    /* border:2px solid rgb(90, 230,21); */
+    padding: 5px;
+    background-color: rgb(247, 239, 230);
+}
+.insurance{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 50%;
+    
+}
+.metric{
+    color:red;
+}
+.header-text{
+    font-size:20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ministryLogo{
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right:20px;
+    border-radius: 5%;
+}
+.firsth1{
+    text-align: center;
+}
+.personalInfo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.address{
+    padding: 5px;
+    margin:10px;
+}
+.nextPage{
+    margin:10px;
+    margin-bottom: 20px;
+    float: right;
+    text-decoration: none;
+    font-size: 22px;
+    color:rgb(90, 230,21);
+    
+}
+.reset{
+    margin-top:20px;
+    padding:10;
+    background-color: red;
+    width:30%
+    
+}
+div.personalInfo >label,input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.address >input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.submit{
+    margin:20;
+    padding:10;
+    background-color: green;
+    width: 30%;
+    align-self:end;
+}
+.youKnow{
+    float: right;
+    font-size: x-large;
+
+}
+.header2{
+    background-color: blue;
+    margin-top:50px;
+    height: 100px;
+    width:100%;
+    font-size: 30px;
+    
+}
+.signature{
+    border-top:none;
+    border-left: none;
+    border-right:none;
+    width:30%;
+    height:25px;
+}
+.para2{
+    /* float: right; */
+}
+.para1{
+    /* float: left; */
+}
+hr{
+    font-weight:bolder;
+}
+div.cardn >input{
+    width:25px;
+}
+div.groupn >input{
+    width: 25px;
+}
+.memberId{
+    text-align: right;
+
+}
