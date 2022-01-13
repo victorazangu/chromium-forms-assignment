@@ -12,6 +12,9 @@ body{
     margin-right: auto;
     
 }
+.github{
+    float: right;
+}
 .logo{
     width: 200px;
     height: 200px;
@@ -90,7 +93,8 @@ div.address >input{
     margin-top:50px;
     height: 100px;
     width:100%;
-    font-size: 30px;
+    font-size: 25px;
+    display: inline-block;
     
 }
 .signature{
@@ -100,11 +104,12 @@ div.address >input{
     width:30%;
     height:25px;
 }
-.para2{
-    /* float: right; */
+.numberd{
+    display: flex;
+    display: inline-block;
 }
-.para1{
-    /* float: left; */
+.para2{
+    text-align:right;
 }
 hr{
     font-weight:bolder;
