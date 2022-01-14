@@ -76,7 +76,7 @@
     </div>
     <br />
     <hr />
-    <div>
+    
       
       <form action="#">
         <div class="numberd">
@@ -96,7 +96,7 @@
           <div class="groupn">
             <label for="">Group no(from health plan ID card)</label
             ><br />
-            <input type="number" />
+            <input type="number" max="9" min="0"/>
             <input type="number" />
             <input type="number" />
             <input type="number" />
@@ -142,16 +142,145 @@
                         <input type="radio" name="address" value="yes">
                         <label for="Yes">Yes</label>
                         <input type="radio" name="address" value="female">
-
-                        <label for="phonen">Phone number</label>
-                        <input type="tel" placeholder="+2547-***-***-**">
                  </div>
              </div>
+             <div>
+                 <div><label for="relation">write down here Relationship to subscriber/policyholder?</label></div>
+                 <div><textarea name="relattext" id="relattext" cols="100" rows="10"></textarea></div>
+                 
+             </div>
 
 
              </div>
+             <hr>
+             <div>
+                 <h2>subscriber/policyholder information</h2>
+                   <div>
+             <div>
+                 <label for="names">Name(First last Middle)</label>
+                 <input type="text">           
+                 <label for="DOB">date of birth</label>
+                 <input type="date">
+             </div>
+             </div>
+             <div>
+                  <div>
+                 <label for="address">Home address</label>
+                 <input type="text">           
+                
+             </div>
+             </div>
+              <div>
+                  <div>
+                 <label for="city">City</label>
+                 <input type="text">
+                 <label for="phonen">Phone number</label>
+                 <input type="tel" placeholder="+2547-***-***-**">
+                 </div>
+             </div>
+             <div>
+                  <div>
+                        <label for="new-address">new adress?</label>
+                        <input type="radio" name="address" value="yes">
+                        <label for="Yes">Yes</label>
+                        <input type="radio" name="address" value="no">
+                        <label for="no">No</label>
+                 </div>
+             </div>
+             <hr>
+             <div>
+                 <div>
+                 <h2>provider information</h2>
+                  <div>
+                 <label for="names">Provider's Name</label>
+                 <input type="text">           
+                 <label for="kra">provider's KRA pin</label>
+                 <input type="text">
+             </div>
+              <div>
+                 <label for="city">City</label>
+                 <input type="text">
+                 <label for="phonen">Phone number</label>
+                 <input type="tel" placeholder="+2547-***-***-**">
+             </div>
+             </div>
+             <div>
+                 <h2>accident information</h2>
+                 <label for="accdate">accident date</label>
+                 <input type="date">
+                 <div>
+                     <label for="typeOfAcc">Type of accident?</label>
+                    <input type="radio" name="work" value="work">
+                     <label for="work">work</label>
+                     <input type="radio" name="auto" value="auto">
+                     <label for="auto">auto</label>
+                     <input type="radio" name="other" value="other">
+                     <label for="other">other</label>
+                </div>
 
-        </div>
+                 <div>
+                     <div><label for="ifOthers">If others please explain bellow?</label></div>
+                     <div><textarea name="ifOthers" id="ifOthers" cols="100" rows="10"></textarea></div>
+                     
+                     
+                    
+                </div>
+                 <div><label for="howAcc">How did the accident happen?</label></div>
+                 <div><textarea name="howAccid" id="typeOfAccid" cols="100" rows="10"></textarea></div>
+            </div>
+            <hr>
+            <div>
+                <h2>other insurance</h2>
+                <label for="ifotherins">Is the patient covered by another insurance plan?</label>
+                <input type="radio" name="yes" value="yes">
+                <label for="yes">yes</label>
+                <label for="or">or</label>
+                <input type="radio" name="no" value="no">
+                <label for="no">no</label>
+                <label for="ifyes">(if yes please fill the form below)</label>
+            </div>
+            <div>
+                <label for="namesofother">Name of person carrying other insurance?(first last Middle)</label>
+                 <input type="text">           
+                 <label for="dateofother">Date of birth of person carrying other insurance?</label>
+                 <input type="date">
+            </div>
+            <div>
+                <label for="namesofotherinss">Name of Other Insurance Carrier:</label>
+                 <input type="text"> 
+                 <label for="policyNumber">Policy Number:</label>
+                 <input type="number"> 
+                 <label for="EmployerName">Employer Name:</label>
+                 <input type="text"> 
+            </div>
+            <hr>
+            <div>
+                <h2><b>assignment of Benefits</b></h2>
+                <input type="checkbox">
+                <label for="approve">
+                   Please check this box if you want UnitedHealthcare to pay benefits directly to the doctor/provider.
+                </label>
+            </div>
+            <hr>
+            <div>
+                <p>
+                    By signing below, I am stating that the information above is correct. Any person who knowingly files a statement of claim containing any 
+                    misrepresentation or any false, incomplete or misleading information, may be guilty of a criminal act punishable under law and may be 
+                    subject to civil penalties.
+                </p><br>
+                 <label for="Signature">Signature</label>
+                 <input type="text"> 
+                 <label for="datesigned">Date signed</label>
+                 <input type="date"> 
+
+            </div>
+             <span>&copy:All rights reserved by victor azangu</span>
+             
+
+            
+             
+
+        
       </form>
     </div>
     

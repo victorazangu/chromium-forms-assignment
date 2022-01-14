@@ -115,10 +115,10 @@ hr{
     font-weight:bolder;
 }
 div.cardn >input{
-    width:25px;
+    width:30px;
 }
 div.groupn >input{
-    width: 25px;
+    width: 30px;
 }
 .memberId{
     text-align: right;
