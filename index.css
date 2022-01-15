@@ -1,8 +1,14 @@
 body{
     /* border:2px solid rgb(90, 230,21); */
     padding: 5px;
-    background-color: rgb(247, 239, 230);
+    background-color: rgb(248, 237, 237);
+    box-sizing:border-box;
+    color:blue;
+    border:1px solid blue;
+    margin:4px;
+    padding: 4px;
 }
+
 .insurance{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -86,17 +92,38 @@ div.address >input{
 .youKnow{
     float: right;
     font-size: x-large;
+    margin-right: 200px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 .header2{
-    background-color: blue;
-    margin-top:50px;
+    background-color:blue;
+    color:whitesmoke;
     height: 100px;
     width:100%;
     font-size: 25px;
     display: inline-block;
+    text-align: center;
+    margin: auto;
     
 }
+.laptop{
+    margin-left: 200px;
+    
+}
+.paraSection{
+    display: flex;
+    margin:10px;
+
+}
+.cardNumberSection{
+    
+    margin: 10px;
+    box-sizing: border-box;
+}
+
 .signature{
     border-top:none;
     border-left: none;
@@ -105,17 +132,29 @@ div.address >input{
     height:25px;
 }
 .numberd{
+    
+    display: inline-block;
+    margin-left: 20px;
+}
+.numberd1{
     display: flex;
     display: inline-block;
+    float: right;
+    align-content: space-between;
+    margin-left: 20px;
+    border-left: 20px;
+    
 }
 .para2{
     text-align:right;
+    display:inline-block
 }
 hr{
     font-weight:bolder;
 }
-div.cardn >input{
+div.numberd1 >input{
     width:30px;
+    float: right;
 }
 div.numberd>input {
     width: 30px;
@@ -123,4 +162,63 @@ div.numberd>input {
 .memberId{
     text-align: right;
 
+}
+.personalInfoSection{
+    display: flex;
+    margin:10px;
+     box-sizing: border-box;
+    
+}
+.policySubscriberInfo{
+    margin: 10px;
+    box-sizing: border-box;
+}
+.relationToSubscriber{
+    margin-left: auto;
+    margin-right: auto;
+}
+.accidentInfomaytion{
+    margin: 10px;
+    box-sizing: border-box;
+}
+.providerInfomation{
+     margin: 10px;
+    box-sizing: border-box;
+}
+.typeOfAccident{
+    margin-left: auto;
+    margin-right: auto;
+}
+.typeAndDate{
+    display: flex;
+}
+.otherInformation{
+    display: flex;
+    
+}
+.otherInformationDiv{
+    margin-right: 5px;
+
+}
+.nav{
+    list-style-type: none;
+    background-color:grey;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:20%;
+    float: right;
+   
+}
+
+nav li a{
+    color:white;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 30px;
+}
+nav li a:hover{
+    background-color: rgb(20, 1, 90);
+    color:rgb(248, 237, 237);
 }

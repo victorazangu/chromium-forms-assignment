@@ -12,14 +12,23 @@
     ></script>
   </head>
   <body class="insurance">
-       <a href="https://github.com/victorazangu/chromium-forms-assignment" target="_blank" class="github">click to github for the codes</a>
-    <a href="./patientInformation.html" class="nextPage"
-      ><i class="fas fa-angle-double-right"></i>click here to go to the patient
-      Information page</a
-    >
-    <div class="header2">
-      <h1>Jikaze insurance claim form</h1>
-    </div>
+        <nav class="nav">
+      <ul>
+        
+        <li> <a href="./patientInformation.html" class="nextPage">
+           <i class="fas fa-angle-double-right"></i>
+          Information page
+         </a></li>
+      </ul>
+    </nav>
+    
+    <section>
+      <div class="header2">
+        <h1>Jikaze insurance claim form</h1>
+    
+      </div>
+      
+    </section>
     <div>
       <h2>
         <b
@@ -39,16 +48,16 @@
     <div>
       <img src="./laptop.jpg" alt="laptop image" class="laptop" />
       <pre class="youKnow">
-            <b>Did you know?</b>
+            <b><u>Did you know?</u></b>
             You receive a higher benefit if you use a UnitedHealthcare provider. 
             This can be especially cost effective when receiving ongoing services 
             like physical therapy or when purchasing durable medical equipment.
         </pre>
     </div>
-    <div>
+    <section class="paraSection">
       <div class="para1">
-        <h2>
-          <b><u>things to remember</u></b>
+        <h2 style="text-align:center;">
+          <b><u>Things to remember</u></b>
         </h2>
         <pre>
             <i class="fas fa-angle-double-right"></i> Complete this form on your computer before printing it. You can also complete it
@@ -63,26 +72,28 @@
         </pre>
       </div>
       <div class="para2">
+        <h2 style="text-align:center;">
+          <b><u>What happens next:</u></b>
+        </h2>
         <pre>
-            <h2><u>What happens next:</u></h2>
+            
             After processing your claim, you’ll receive an Explanation of Benefits (EOB). The EOB 
             explains the charges applied to your deductible (the amount you pay for covered 
             services before your plan begins to pay) and any charges you may owe the provider. 
             Please keep your EOB on file in case you need it in the future. You may also review 
             your EOB information on myuhc.com.
 
-            </pre>
+        </pre>
       </div>
-    </div>
+    </section>
     <br />
     <hr />
-    
-      
+    <h3 style="text-align:center;"><u>Fill the form below:</u></h3>  
       <form action="#">
-        <div class="numberd">
-          
+        <section class="cardNumberSection">
+          <div class="numberd">
             <label for="memberId">Menber ID(from health plan ID card)</label
-            >
+            ><br>
             <input type="number" />
             <input type="number" />
             <input type="number" />
@@ -92,8 +103,10 @@
             <input type="number" />
             <input type="number" />
             <input type="number" />
-            <label for="">Group no(from health plan ID card)</label
-            >
+          </div>
+          <div class="numberd1">
+            <label for="">Grp #(from health plan ID card)</label
+            ><br>
             <input type="number" max="9" min="0"/>
             <input type="number" />
             <input type="number" />
@@ -101,18 +114,21 @@
             <input type="number" />
             <input type="number" />
             <input type="number" />
-          
-        </div>
-        <hr>
-        <div>
+          </div> 
             
-             <h2 style="text-align:center;color:blue;">patient information</h2>
-             <div>
+          
+        </section>
+        <hr>
+            <h2 style="text-align:center;color:blue;"><u>Patient information</u></h2>
+
+        <section class="personalInfoSection">
+             
+             <div class="patientInformationForInsurance">
              
                  <label for="names">Name(First last Middle)</label>
                  <input type="text">           
-                 <label for="DOB">date of birth</label>
-                 <input type="date">
+                 <label for="DOB">Date of birth</label>
+                 <input type="date"><br>
              
              
                   
@@ -127,27 +143,27 @@
                  <label for="city">City</label>
                  <input type="text">
                  <label for="phonen">Phone number</label>
-                 <input type="tel" placeholder="+2547-***-***-**">
+                 <input type="tel" placeholder="+2547-***-***-**"><br>
                  
 
                   
-                 <label for="new-address">new adress?</label>
+                 <label for="new-address">New adress?</label>
                   <input type="radio" name="address" value="yes">
                   <label for="Yes">Yes</label>
                   <input type="radio" name="address" value="female">
                  
-             </div>
-             <div>
-                 <div><label for="relation">write down here Relationship to subscriber/policyholder?</label></div>
-                 <div><textarea name="relattext" id="relattext" cols="100" rows="10"></textarea></div>
+            </div>
+             <div class="relationToSubscriber">
+                 <label for="relation">write down here Relationship to subscriber/policyholder?</label><br>
+                 <textarea name="relattext" id="relattext" cols="70" rows="10"></textarea>
                  
              </div>
 
 
-             </div>
+          </section>
              <hr>
-             <div>
-                 <h2 style="text-align:center;color:blue;">subscriber/policyholder information</h2>
+             <section class="policySubscriberInfo">
+                 <h2 style="text-align:center;color:blue;"><u>Subscriber/policyholder information</u></h2>
             <div>
              
                  <label for="names">Name(First last Middle)</label>
@@ -155,12 +171,7 @@
                  <label for="DOB">date of birth</label>
                  <input type="date">                
                  <label for="address">Home address</label>
-                 <input type="text">           
-                
-             
-             </div>
-              <div>
-                  
+                 <input type="text"> <br>                        
                  <label for="city">City</label>
                  <input type="text">
                  <label for="phonen">Phone number</label>
@@ -172,29 +183,30 @@
                  <label for="no">No</label>
                  
              </div>
+             </section>
              <hr>
-             <div>
-                 <div>
-                 <h2 style="text-align:center;color:blue;" >provider information</h2>
-                  <div>
+             <section class="providerInfomation">
+                 <h2 style="text-align:center;" ><u>Provider information</u></h2>
                  <label for="names">Provider's Name</label>
                  <input type="text">           
                  <label for="kra">provider's KRA pin</label>
-                 <input type="text">
-             </div>
-              <div>
-                 <label for="city">City</label>
-                 <input type="text">
-                 <label for="phonen">Phone number</label>
-                 <input type="tel" placeholder="+2547-***-***-**">
-             </div>
-             </div>
-             <div>
-                 <h2>accident information</h2>
-                 <label for="accdate">accident date</label>
-                 <input type="date">
-                 <div>
-                     <label for="typeOfAcc">Type of accident?</label>
+                 <input type="text">             
+                <label for="city">City</label>
+                <input type="text">
+                <label for="phonen">Phone number</label>
+                <input type="tel" placeholder="+2547-***-***-**">
+            
+            </section>
+            <hr>
+             <section class="accidentInfomaytion">
+                 <h2 style="text-align:center;"><u>Accident information</u></h2>
+                 <div class="typeAndDate">
+                   <div class="accidentDate">
+                    <label for="accdate">Accident date?</label>
+                    <input type="date">
+                 </div>
+                 <div class="typeOfAccident">
+                    <label for="typeOfAcc">Type of accident?</label>
                     <input type="radio" name="work" value="work">
                      <label for="work">work</label>
                      <input type="radio" name="auto" value="auto">
@@ -202,20 +214,26 @@
                      <input type="radio" name="other" value="other">
                      <label for="other">other</label>
                 </div>
+                 </div>
+                 
 
-                 <div>
-                     <div><label for="ifOthers">If others please explain bellow?</label></div>
-                     <div><textarea name="ifOthers" id="ifOthers" cols="100" rows="10"></textarea></div>
-                     
-                     
+                 <div class="otherInformation">
+                   <div class="otherInformationDiv">
+                     <label for="ifOthers">If others please explain bellow?</label><br>
+                     <textarea name="ifOthers" id="ifOthers" cols="100" rows="10"></textarea><br>
+                   </div>
+                   <div class="otherInformationDiv">
+                     <label for="howAcc">How did the accident happen?</label><br>
+                     <textarea name="howAccid" id="typeOfAccid" cols="100" rows="10"></textarea>
+                   </div>
                     
-                </div>
-                 <div><label for="howAcc">How did the accident happen?</label></div>
-                 <div><textarea name="howAccid" id="typeOfAccid" cols="100" rows="10"></textarea></div>
-            </div>
+                     
+                 </div>
+                     
+            </section>
             <hr>
             <div>
-                <h2 style="text-align:center;color:blue;">other insurance</h2>
+                <h2 style="text-align:center;color:blue;"><u>other insurance</u></h2>
                 <label for="ifotherins">Is the patient covered by another insurance plan?</label>
                 <input type="radio" name="yes" value="yes">
                 <label for="yes">yes</label>
@@ -240,7 +258,7 @@
             </div>
             <hr>
             <div>
-                <h2 style="color:blue;">assignment of Benefits</h2>
+                <h2 style="color:blue;"><u>assignment of Benefits</u></h2>
                 <input type="checkbox">
                 <label for="approve">
                    Please check this box if you want UnitedHealthcare to pay benefits directly to the doctor/provider.
@@ -269,10 +287,14 @@
       </form>
     </div>
     
-
-    <a href="./patientInformation.html" class="nextPage"
-      ><i class="fas fa-angle-double-right"></i>click here to go to the patient
-      Information page</a
-    >
+  <nav class="nav">
+      <ul>
+        <li>
+          <a href="./patientInformation.html" class="nextPage">
+            <i class="fas fa-angle-double-right"></i>Information page
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
