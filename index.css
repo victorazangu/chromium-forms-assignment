@@ -1,7 +1,7 @@
 body{
     /* border:2px solid rgb(90, 230,21); */
     padding: 5px;
-    background-color:#d3d2d2;
+    background-color:#ffffff;
     box-sizing:border-box;
     color:blue;
     border:1px solid blue;
@@ -22,8 +22,8 @@ form{
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin-left: 20px;
     border-radius: 50%;
     
@@ -222,7 +222,7 @@ div.numberd>input {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width:10%;
+    width: 15%;
     float: right;
    
 }
