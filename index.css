@@ -1,7 +1,7 @@
 body{
     /* border:2px solid rgb(90, 230,21); */
     padding: 5px;
-    background-color:#ffffff;
+    background-color:#e0dcdc;
     box-sizing:border-box;
     color:blue;
     border:1px solid blue;
@@ -34,17 +34,19 @@ form{
 .header-text{
     font-size:20px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding-top: 75px;
+    
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .ministryLogo{
     float: right;
     width: 200px;
     height: 200px;
-    margin-left: 20px;
-    margin-right:20px;
+    margin: 0px;
+    padding-top: 20px;
+    
     border-radius: 5%;
+
 }
 .firsth1{
     text-align: center;
